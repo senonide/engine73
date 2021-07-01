@@ -10,27 +10,9 @@ namespace GraphicsRenderer
 
         public static Texture2D plane;
         public static Texture2D logo;
-        public static Texture2D wallpaper;
 
         public static FontRenderer font;
         public static FontRenderer font2;
-
-        public static Texture2D frigate;
-        public static Texture2D galleon;
-
-        public static Texture2D bigFlag;
-        public static Texture2D smallFlag;
-        public static Texture2D tinyFlag;
-
-
-        public static Texture2D coin;
-        public static Texture2D heart;
-        public static Texture2D cannonBall;
-        public static Texture2D velocity;
-
-        public static Texture2D star;
-
-
 
         /// <summary>
         /// This is the main function. It is responsible for loading all the game's assests consecutively. Must be called at game start

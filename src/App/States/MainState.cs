@@ -68,7 +68,7 @@ namespace States
             Graphics.DrawText("Right click to move the camera to the clicked spot", Assets.font2, new Vector2(-230, -65), Color.LightBlue);
             Graphics.DrawText("Move the red square with W,A,S,D. You can also try using a GamePad", Assets.font2, new Vector2(-230, -50), Color.LightBlue);
             
-            Graphics.DrawText("You're this -->", Assets.font2, new Vector2(-120, 97), Color.LightCoral);
+            Graphics.DrawText("You can control this -->", Assets.font2, new Vector2(-180, 97), Color.LightCoral);
 
             Graphics.DrawPlane(new Vector2(-300, -210), new Vector2(300, 2), new Color(255, 255, 255, 0), Color.White, Color.White, new Color(255, 255, 255, 0));
             Graphics.DrawPlane(new Vector2(0, -210), new Vector2(300, 2), Color.White, new Color(255, 255, 255, 0), new Color(255, 255, 255, 0), Color.White);
